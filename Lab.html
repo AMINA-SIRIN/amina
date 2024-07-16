@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html Lab</title>
+</head>
+<body>
+
+	<h2>Registration Form</h2>
+	<fieldset>
+		<form method="" action="Registration" target="_blank">
+			<label for="name" >Name</label><br>
+			<input type="text" name="name" placeholder="Enter your name" maxlength="25" required="" ><br><br>
+			<label for="email" >Email Id</label><br>
+			<input type="email" name="email" id="email" autofocus="" placeholder="Enter your mail id" value="test@example.com" required=""><br>
+			<label for="Password">Password</label><br>
+			<input type="password" name="Password" id="Password" placeholder="Enter your Password" minlength="6" required=""><br><br>
+			<label for="category" >Category</label>
+			<select required="">
+				<option >Freelancer</option>
+				<option>Employee</option>
+				<option>Student</option>
+			</select><br><br>
+			<label for="event">Event Date</label>
+			<input id="event" type="date" name="date" required="" ><br><br>
+			<label for="ticket" >Ticket</label><br>
+			<input id="ticket" type="radio" name="ticket" required="">Ticket 1<br>
+			<input id="ticket" type="radio" name="ticket" required="" checked="">Ticket 2<br>
+			<input id="ticket" type="radio" name="ticket" required="">Ticket 3<br><br>
+			<label for="payment"  >Payment Mode</label><br>
+			<input id="payment" type="checkbox" name="payment" required="">Online Payment<br><br>
+			<label for="notes" >Notes</label><br>
+			<textarea rows="8" cols="200"  placeholder="Text Here"></textarea><br><br>
+			<input type="button" name="Submit" value="Submit" required=""><br><br>
+		</form>
+	</fieldset>
+</body>
+</html>
